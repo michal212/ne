@@ -27,7 +27,7 @@ async function showProfiles() {
    
         <p class="card-text">  ${profileObj.age} years old, you can in touch with me ${profileObj.email} or ${profileObj.phone} </p>
     
-         <a href="/user.html?id=${profileObj._id}" class="btn btn-info">watch profile</a>
+         <a href="user.html?id=${profileObj._id}" class="btn btn-info">watch profile</a>
                 </div>
                 </div>
                  </div>
